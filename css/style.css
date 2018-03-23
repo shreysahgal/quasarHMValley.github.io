@@ -22,8 +22,8 @@ nav {
 }
 
 nav ul li a {
-    font-family: 'Roboto Mono', monospace;
-    color: #ff9c00;
+    font-family: 'Roboto', sans-serif;
+    color: #8c91ff;
     font-size: 16px;
     padding-top: 12px;
 }
@@ -81,7 +81,7 @@ nav ul li a {
 
 body {
 /*    height: 1000px;*/
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 #push.pin-top {
