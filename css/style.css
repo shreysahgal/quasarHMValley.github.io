@@ -1,8 +1,146 @@
-/*
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif;
-*/
-img {
-    height: 20%;
-    width: 50%;
+h1 {
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.logo-image {
+    height: auto;
+    width: auto;
+    max-height: 65px;
+    padding-left: 55px;
+    padding-top: 2.5px;
+}
+
+nav {
+    height: 70px;
+    line-height: 30px;
+    background-color: #efefef;
+}
+
+nav ul li a {
+    font-family: 'Roboto Mono', monospace;
+    color: #ff9c00;
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    /* make things invisible upon start */
+    -webkit-animation: fadeIn ease-in 1;
+    /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode: forwards;
+    /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.fade-in {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+body {
+/*    height: 1000px;*/
+    font-family: 'Roboto Mono', monospace;
+}
+
+#push.pin-top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.pin-top {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+section.pinned {
+    display: none;
+    z-index: 1;
+}
+
+#push.pinned {
+    position: static;
+    width: 100%;
+    display: none;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+p {
+    opacity: 1;
+    text-align: center;
+}
+
+.fadescroll {
+    text-align: center;
+    opacity: 1;
+}
+
+.title {
+    /*text-align: center;*/
+}
+
+.main {
+    padding-top: 175px;
+    text-align: center;
+    color: black;
+}
+
+.sub {
+    text-align: center;
+    color: black;
+}
+
+.story {
+    color
 }
