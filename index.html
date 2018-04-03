@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+<div id="noscroll">
+    <div id="scroll">
 
-<head>
+        <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="author" content="Shrey Sahgal">
-    <meta name="description" content="the website for the company known as quasar">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+            <meta name="author" content="Shrey Sahgal">
+            <meta name="description" content="the website for the company known as quasar">
 
-    <title>quasar</title>
+            <title>quasar</title>
 
-    <!-- Google icon font -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Fonts (via google apis) -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+            <!-- Google icon font -->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <!-- Fonts (via google apis) -->
+            <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 
-    <!-- Materialze core CSS -->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+            <!-- Materialze core CSS -->
+            <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+            <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
 
-    <!-- Materialize core JS -->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+            <!-- Materialize core JS -->
+            <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <!-- JQuery JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
-    <script src="js/background-sketch.js"></script>
+            <!-- JQuery JS -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="js/scrolling.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
+            <script src="js/background-sketch.js"></script>
 
-</head>
+        </head>
 
-<body>
-    
-    <!-- Navbar -->
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo left"><img class="logo-image" src="images/quasarlogo.png"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="story.html">our story</a></li>
-                    <li><a href="projects.html">our projects</a></li>
-                    <li><a href="links.html">our links</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    
-    <div class="fade-in">
-        <div class="fadescroll">
-            <div class="title">
-                <h1 class="main">quasar</h1>
-            </div>
-        </div>
-    </div>
+        <body>
+            <div id="landing">
+                <!-- Navbar -->
+                <div class="navbar-fixed">
+                    <nav>
+                        <div class="nav-wrapper">
+                            <a href="#" class="brand-logo left"><img class="logo-image" src="images/quasarlogo.png"></a>
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                <li><a href="#story">our story</a></li>
+                                <li><a href="projects.html">our projects</a></li>
+                                <li><a href="links.html">our links</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="fade-in">
+                    <div class="title">
 
-    <div class="fade-in">
-        <div class="fadescroll">
-            <div class="title">
-                <div class="sub">
-                    <h3>the future is bright</h3>
+                        <div id="fadescrollMain">
+                            <h1 class="main">quasar</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fade-in">
+                    <div class="title">
+                        <div class="sub">
+                            <div id="fadescrollSub">
+                                <h3>the future is bright</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div id="story">
+                <p>bla bla bla</p>
+            </div>
+        </body>
     </div>
-</body>
+</div>
 
 </html>

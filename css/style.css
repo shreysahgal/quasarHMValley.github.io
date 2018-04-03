@@ -1,3 +1,16 @@
+#container1 {
+    overflow: auto;
+}
+
+#container2 {
+    overflow: hidden
+    padding-right: 0px;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
 h1 {
     text-align: center;
 
@@ -23,7 +36,7 @@ nav {
 
 nav ul li a {
     font-family: 'Roboto', sans-serif;
-    color: #8c91ff;
+    color: black;
     font-size: 16px;
     padding-top: 12px;
 }
@@ -121,7 +134,7 @@ p {
     text-align: center;
 }
 
-.fadescroll {
+#fadescroll {
     text-align: center;
     opacity: 1;
 }
@@ -143,4 +156,21 @@ p {
 
 .story {
     color
+}
+
+#blablabla {
+    position: absolute;
+    text-align: center;
+    width: 0px;
+    vertical-align: center;
+}
+
+#story {
+    position: relative;
+    top: 1000px;
+}
+
+body
+{
+    1500px;
 }
