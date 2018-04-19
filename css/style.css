@@ -29,10 +29,9 @@ h3 {
 }
 
 nav {
-    /*testing a black background against white/orange text. Original color was #efefef*/
     height: 70px;
     line-height: 30px;
-    background-color: #000000;
+    background-color: #efefef;
 }
 
 nav ul li a {
